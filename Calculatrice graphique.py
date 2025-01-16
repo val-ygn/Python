@@ -10,7 +10,7 @@ def press(key):
 def calculate():
     try:
         current = display.get()
-        result = eval(current)  # Attention : eval peut être dangereux, assure-toi de l'utiliser en toute sécurité
+        result = eval(current) 
         display.delete(0, tk.END)
         display.insert(tk.END, result)
     except Exception as e:
