@@ -1,3 +1,4 @@
+# Avant de lancer ce programme, il faut faire cette commande dans le terminal : pip install pandas openpyxl pip install vobject
 import tkinter as tk
 from tkinter import messagebox, ttk, filedialog
 import pandas as pd
